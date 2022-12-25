@@ -29,6 +29,8 @@ namespace Menu
         List<string> price1 = new List<string>() { "580", "690", "700", "890", "1620", "350", "490", "790", "490", "990" };
         List<string> price2 = new List<string>() { "590", "720", "500", "250", "620", "450", "560", "320" };
         List<string> price3 = new List<string>() { "380", "270", "345", "150", "150", "400" };
+
+        private string strin;
         public MainWindow()
         {
             InitializeComponent();
