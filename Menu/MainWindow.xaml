@@ -9,9 +9,9 @@
     <Grid>
 
         <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
-            <ListView x:Name="lv1" Height="400" Width="100" />
-            <ListView x:Name="lv2" Height="400" Width="100" />
-            <ListView x:Name="lv3" Height="400" Width="100" />
+            <ListView x:Name="lv1" Height="400" Width="100" MouseDoubleClick="AddToCart" />
+            <ListView x:Name="lv2" Height="400" Width="100" MouseDoubleClick="AddToCart"/>
+            <ListView x:Name="lv3" Height="400" Width="100" MouseDoubleClick="AddToCart"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top">
              <ListView x:Name="lv4" Height="200" Width="100" />
